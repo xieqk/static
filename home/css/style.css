@@ -1,0 +1,384 @@
+@charset "utf-8";
+	* {
+	margin:0;
+	padding:0;
+	font-family:"微软雅黑", Arial;
+}
+body {
+	text-align:center;
+	width:100%;
+}
+img {
+	border:0;
+}
+.logo {
+	width:980px;
+	padding:0px;
+	margin:0 auto;
+	padding:5px 0 10px 0;
+	text-align:left;
+}
+.logo h1 {
+	font-size:32px;
+	text-shadow:1px 1px 2px #000000;
+	color:#444444;
+	cursor:default;
+	/* padding-bottom:-10px;*/
+	margin-bottom:-10px;
+	/* display:inline;*/
+}
+.logo h4 {
+	font-weight:300;
+	font-size:15px;
+	margin-left:1px;
+	display:inline;
+}
+.logo span {
+	float:right;
+	text-align:center;
+	font-size:15px;
+}
+.logo span a {
+	color:#1ba1e2;
+	text-decoration:none;
+	padding:5px 10px;
+	transition:all 0.5s;
+}
+.logo span a:hover {
+	color:#ffffff;
+	background-color:#1ba1e2;
+}
+.clear {
+	clear:both;
+}
+.blue {
+	width:100%;
+	min-width:1000px;
+	background-color:#1ba1e2;
+}
+.blue .contain {
+	width:960px;
+	padding:20px;
+	margin:0 auto;
+	text-align:left;
+}
+.contain img {
+	box-shadow:0 0 20px #ffffff;
+	-moz-box-shadow:0 0 20px #ffffff;
+	-webkit-box-shadow:0 0 20px #ffffff;
+	border-radius:125px;
+	border:0;
+	float:left;
+}
+.contain .info {
+	float:right;
+	width:600px;
+}
+.info span {
+	display: block;
+	border:#cccccc 1px solid;
+	border-radius: 15px;
+	margin: 20px;
+	padding: 13px;
+	box-shadow:0 0 10px #ffffff;
+	-moz-box-shadow:0 0 10px #ffffff;
+	-webkit-box-shadow:0 0 10px #ffffff;
+	color:#ffffff;
+	transition:all 0.5s;
+	cursor:default;
+}
+.info span:hover {
+	border-radius: 0px;
+}
+.info strong {
+	padding:0px;
+	margin-right:10px;
+	text-shadow:1px 1px 0 #444444;
+}
+.tabs {
+	width:1000px;
+	margin:0 auto;
+	margin-bottom:10px;
+}
+.menu1box {
+	position:relative;
+	height:50px;
+	border-bottom:#1ba1e2 4px solid;
+}
+.menu1box li {
+	float:left;
+	display:block;
+	cursor:pointer;
+	padding:10px;
+	text-align:center;
+	margin:10px 10px 0 0;
+	color:#1ba1e2;
+	font-size:18px;
+	font-weight:600;
+}
+.menu1box li.hover {
+	background-color:#1ba1e2;
+	color:#ffffff;
+}
+.main1box {
+	clear:both;
+	padding:15px;
+	text-align:left;
+	border:#1ba1e2 1px solid;
+}
+#main1 ul {
+	list-style:none;
+	display: none;
+}
+#main1 ul.block {
+	display: block;
+}
+#main1 ul .edu_left {
+	float:left;
+	width:120px;
+}
+#main1 ul .edu_right {
+	float:right;
+	width:800px;
+	line-height:1.5em;
+	padding-top:10px;
+}
+#main1 ul .edu_foot {
+	border-top:#cccccc 1px solid;
+	padding-top:10px;
+	margin-top:20px;
+}
+.edu_left img {
+	border:0;
+}
+.edu_right h2 {
+	display:inline;
+	font-size:20px;
+}
+.edu_right h5 {
+	font-size:12px;
+	font-weight:500;
+	font-style:italic;
+	color:#444444;
+	padding-bottom:0px;
+	margin-bottom:0px;
+	line-height:20px;
+	/* border-bottom:#000000 1px dotted;*/
+}
+.edu_right h6 {
+	font-size:12px;
+	font-weight:500;
+	font-style:italic;
+	color:#444444;
+	padding-bottom:10px;
+	margin-bottom:10px;
+	border-bottom:#000000 1px dotted;
+}
+.edu_right h3 {
+	font-size:14px;
+	font-weight:500;
+	font-style:italic;
+	color:#444444;
+	/* padding-bottom:5px;*/
+	margin-top:0px;
+	margin-bottom:-2px;
+	/* border-bottom:#000000 1px dotted;*/
+}
+.edu_right h4 {
+	font-size:14px;
+	font-weight:500;
+	font-style:italic;
+	color:#444444;
+	padding-bottom:5px;
+	margin-bottom:5px;
+	/* border-bottom:#000000 1px dotted;*/
+}
+#gt {
+	margin-top:6px;
+}
+.res_head {
+	padding:5px;
+	border-bottom:#eeeeee 4px solid;
+}
+.res_head h2 {
+	color:#444444;
+	font-size:18px;
+	text-shadow:1px 1px 0 #dddddd;
+}
+.res_head h4 {
+	font-size:18px;
+	font-weight:300;
+}
+.res_head h5 {
+	font-size:14px;
+	font-weight:300;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.res_body {
+	margin-left:100px;
+	margin-bottom:20px;
+	padding:10px;
+	border-left:#eeeeee 4px solid;
+	border-bottom:#eeeeee 4px solid;
+	text-align:center;
+}
+.res_body h4 {
+	color:#444444;
+	font-size:14px;
+	text-align:left;
+	font-weight:500;
+	text-shadow:1px 1px 0 #dddddd;
+	margin-bottom:5px;
+}
+.res_body h5 {
+	font-size:14px;
+	text-align:left;
+	font-weight:500;
+	margin-bottom:5px;
+}
+.res_body img {
+	border:0;
+	margin:10px;
+}
+.award {
+	float:left;
+	margin:15px;
+	border:#cccccc 2px solid;
+}
+.award img {
+	border:0;
+}
+#main1 table {
+	width:965px;
+	border-collapse:collapse;
+	border:#1ba1e2 1px solid;
+	cursor:default;
+}
+#main1 table td {
+	border:#1ba1e2 1px solid;
+	padding:5px;
+	text-align:center;
+}
+#main1 table tr:hover {
+	background-color:#eeeeee;
+}
+.footer {
+	width:100%;
+	min-width:1000px;
+	background-color:#1ba1e2;
+	color:#ffffff;
+	font-size:14px;
+	line-height:35px;
+}
+.footcont {
+	width:1000px;
+	margin:0 auto;
+	text-align:left;
+	padding-bottom:10px;
+}
+.copy {
+	width:700px;
+	float:left;
+	margin-top:20px
+}
+.map {
+	width:200px;
+	float:right;
+	text-align:right;
+	margin:2px 0;
+}
+.map img {
+	border:0;
+}
+/* * Button CSS **/
+	.share-btns {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+}
+.share-btn {
+	display: inline-block;
+	color: #ffffff;
+	border: none;
+	padding: 0.1em 0.4em;
+	outline: none;
+	text-align: center;
+	font-size: 0.9em;
+	margin: 0.1em 0em;
+	margin-left: 0.5em;
+	margin-right: -0.5em;
+	text-decoration:none;
+	font-style:normal;
+	border-radius:6px;
+	opacity: 0.8;
+	text-shadow:0px 0px 0 #dddddd;
+	transition:all 0.4s;
+}
+.share-btn img {
+	margin-bottom: -0.16em;
+	margin-right: 0.3em;
+	/* margin-left: -0.2em;*/
+}
+.share-btn:focus,
+.share-btn:hover {
+	border-radius:2px;
+	color: #ffffff;
+	opacity: 1.0;
+	text-decoration:underline;
+}
+.share-btn:active {
+	color: #e2e2e2;
+}
+.share-btn.pdf {
+	background: #E91309;
+}
+.share-btn.ieee {
+	background: #006699;
+}
+.share-btn.github {
+	background: #24292E;
+}
+.share-btn.wider {
+	background: #1ABC9C;
+}
+.share-btn.arxiv {
+	background: #B31B1B;
+}
+.share-btn.list {
+	background: #814dac;
+}
+.share-btn.certificate {
+	background: #55acee;
+}
+.share-btn.google-plus {
+	background: #dd4b39;
+}
+.share-btn.facebook {
+	background: #3B5998;
+}
+.share-btn.stumbleupon {
+	background: #EB4823;
+}
+.share-btn.reddit {
+	background: #ff5700;
+}
+.share-btn.hackernews {
+	background: #ff6600;
+}
+.share-btn.linkedin {
+	background: #4875B4;
+}
+.share-btn.email {
+	background: #444444;
+}
+a {
+	text-decoration:none;
+	color: #6f00ff
+}
+a:hover {
+	text-decoration:underline;
+	color: #6f00ff
+}
